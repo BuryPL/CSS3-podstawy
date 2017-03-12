@@ -24,3 +24,7 @@ div#elementy_potomne > p {
 p#pierwszy + a {
     color: lime;
 }
+
+p#pierwszy ~ a {
+    background-color: lightgoldenrodyellow;
+}
