@@ -1,21 +1,26 @@
-p{
-    background-color:beige;
+p {
+    background-color: beige;
     padding: 10px 50px;
 }
 
-#pan_tadeusz{
+#pan_tadeusz {
     background-color: magenta;
     color: yellow;
 }
 
-.lorem{
+.lorem {
     font-size: 20px;
 }
 
-p#pierwszy, a{
+p#pierwszy,
+a {
     font-weight: bold;
 }
 
-div#elementy_potomne p{
+div#elementy_potomne > p {
     background-color: aqua;
+}
+
+p#pierwszy + a {
+    color: lime;
 }
