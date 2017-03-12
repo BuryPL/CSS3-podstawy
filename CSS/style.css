@@ -28,3 +28,7 @@ p#pierwszy + a {
 p#pierwszy ~ a {
     background-color: lightgoldenrodyellow;
 }
+
+div#elementy_potomne > p:not(.last){
+    background-color: lightblue;
+}
